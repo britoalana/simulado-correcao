@@ -1,0 +1,17 @@
+.navbar-bg{
+    background: #eb6440;
+}
+
+.navbar-brand{
+    rotate: 180deg;
+}
+
+.nav-item button{
+    background: transparent;
+    border: none;
+    color: #FFF;
+}
+
+.nav-item a{
+    color: #FFF;
+}

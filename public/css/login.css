@@ -1,0 +1,56 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    padding: .5rem;
+}
+
+form h1{
+    font-size: 24px;
+}
+
+.fade{
+  z-index: 30;
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.modal{
+    backdrop-filter: blur(4px);
+    display: block;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input {
+    width: 280px;
+    border-radius: 5px;
+    border: none;
+    background: #D9D9D9;
+    padding: .5rem;
+}
+
+input[type="submit"] {
+    width: 120px;
+    background: #eb6440;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.cadastro a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+}
