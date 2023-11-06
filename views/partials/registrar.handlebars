@@ -7,9 +7,17 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
-        <form action="/" method="post">
+        <div class="login-container">
           <h1>Cadastre-se</h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
 
+        <form action="/" method="post">
           <div class="form">
             <label for="name">Usuário</label>
             <input type="text" name="name" />
@@ -24,15 +32,14 @@
             <label for="password">Senha</label>
             <input type="password" name="password" />
           </div>
+        
+        <div class="form">
+          <label for="confirmPassword">Repita a senha</label>
+          <input type="password" name="confirmPassword" />
+        </div>
 
-          <div class="form">
-            <label for="confirmPassword">Repita a senha</label>
-            <input type="password" name="confirmPassword" />
-          </div>
-
-          <input type="submit" value="Cadastrar" />
-
-         
+        <input type="submit" value="Cadastrar" />
+</form>
       </div>
     </div>
   </div>

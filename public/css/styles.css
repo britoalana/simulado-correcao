@@ -1,35 +1,12 @@
-.postagens {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 3rem;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.postagens article {
-    margin-top: 1px;
-    gap: .2rem;
+body{
+     font-family: 'Nunito', sans-serif;
 }
 
-.linha1 {
-    display: flex;
-}
-
-.linha2 {
-    display: flex;
-}
-
-.linha3 {
-    display: flex;
-}
-
-.linha4 {
-    display: flex;
-}
-
-.linha5 {
-    display: flex;
-}
-
-.linha6 {
-    display: flex;
-}

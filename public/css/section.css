@@ -1,0 +1,35 @@
+.postagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+}
+
+.postagens article {
+    margin-top: 1px;
+    gap: .2rem;
+}
+
+.linha1 {
+    display: flex;
+}
+
+.linha2 {
+    display: flex;
+}
+
+.linha3 {
+    display: flex;
+}
+
+.linha4 {
+    display: flex;
+}
+
+.linha5 {
+    display: flex;
+}
+
+.linha6 {
+    display: flex;
+}
