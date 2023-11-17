@@ -64,7 +64,12 @@ module.exports = class AuthController {
     request.flash("message", "Usuário autenticado com sucesso!")
 
     request.session.save(()=>{
-        response.render("home")
+        response.redirect("/")
     })
+  }
+
+  static async logout(request, response){
+    request.session.destroy()
+    response.redirect("/")
   }
 };
